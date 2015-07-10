@@ -2,21 +2,13 @@ package com.google.code.http4j;
 
 import java.io.File;
 import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.net.URISyntaxException;
 import java.util.HashMap;
 import java.util.Map;
 
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 
-import com.cloudwiseStressTest.CloudwiseClasses.CloudwiseThread;
 import com.cloudwiseStressTest.CloudwiseClasses.CloudwiseThreadGroup;
-import com.google.code.http4j.impl.BasicClient;
-import com.google.code.http4j.impl.Get;
-import com.google.code.http4j.utils.Metrics;
-import com.google.code.http4j.utils.ThreadLocalMetricsRecorder;
 
 public class test {
 	 private static Map sysThreadMap=new HashMap();    
